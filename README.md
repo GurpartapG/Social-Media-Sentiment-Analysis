@@ -19,10 +19,14 @@ subreddit_name = "desired_subreddit"
 1. Clone the repository to your local machine
 2. Navigate to the project directory
 3. Install the required dependencies (Python 3.x, PRAW, TextBlob, Pandas, dotenv):
-   pip install praw textblob pandas python-dotenv
-4. Add your Reddit API credentials in the .env file (example template below):
-   CLIENT_ID=your-client-id  
+```bash
+pip install praw textblob pandas python-dotenv
+```
+5. Add your Reddit API credentials in the .env file (example template below):
+```bash
+CLIENT_ID=your-client-id  
 CLIENT_SECRET=your-client-secret  
 USER_AGENT=your-user-agent
+```
 6. Run the script
 
